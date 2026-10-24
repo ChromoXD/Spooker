@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+#Base{
+    background-image:  linear-gradient(rgba(44, 39, 41, 0.6), rgba(44, 39, 41, 0.6)), url(./Assests/BG.jpg);
+    /* background-color: #94B3FD; */
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+        "nav hub"
+    ;
+    grid-template-columns:1fr 9fr ;
+    /* background-color: #222831; */
+    /* align-items: center; */
+    /* align-content:space-between; */
+}
+
+#sec1{
+    grid-area: "nav";
+    display: grid;
+    grid-template-areas:
+        "btn"
+        "btn"
+        "btn"
+        "btn"
+        "btn";
+    grid-template-rows: 8fr 1fr 1fr 1fr 1fr 8fr ;
+    /* border: 1px solid black; */
+    border-right: 0.1vw solid #DFD0B8;
+    width: 10vw;
+    height: 100vh;
+}
+
+#logo{
+    height: 20vh;
+}
+
+.btn{
+    /* border: 1px solid #DFD0B8; */
+    height: 10vh;
+}
+
+#sec2{
+    display: grid;
+    grid-area: "hub";
+    /* border: 1px solid black; */
+    width: 30vw;
+    height: 50vh;
+}
+
+#nav{
+    width: 89.9vw;
+    height: 26%;
+    /* border-bottom: 1px solid #DFD0B8; */
+}
+
+#options_Parent{
+    display: flex;
+    gap: 4vw;
+}
+
+.options{
+    list-style: none;
+    margin-top: 3%;
+    
+}
+
+.options:hover{
+    cursor: pointer;
+}
+
+#cheese{
+    margin-left: 75%;
+}
+
+#Logo_Img{
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 10%;
+    /* background-color: aliceblue; */
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#Text_Container{
+    position: static;
+    /* background-color: aqua; */
+    height: 90vh;
+}
+
+#mainText{
+    margin-top: 10%;
+    margin-left: 15%;
+    font-size: 70px;
+}
+
+#Info{
+    color: #DFD0B8;
+    margin-left: 19%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+
+#Base2{
+    width: 100vw;
+    height: 100vh;
+}
